@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "glsl-shader-loader": "^0.1.6",
     "next": "12.2.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "three": "^0.142.0"
   },
   "devDependencies": {
     "eslint": "8.19.0",

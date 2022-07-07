@@ -1,16 +1,54 @@
-html,
-body {
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+  padding: 0;
+  outline: none;
   box-sizing: border-box;
 }
+::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: transparent;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #333a;
+  border-radius: 20px;
+}
+::selection{
+    background: #9527c988;
+}
+
+.center-align{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  justify-items: center;
+  align-items: center;
+}
+
+.custom-background{
+  width: 100vw;
+  height: 100vh;
+}
+
+.custom-background canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.page-container{
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+

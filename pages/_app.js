@@ -1,7 +1,22 @@
+import { useEffect, useRef } from 'react'
+import Header from '../components/prefix/header'
+import Footer from '../components/prefix/footer'
+import ThreeController from "../components/three/three"
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+export default function CustomApp({ Component, pageProps }) {
+    const divRef = useRef(null)
+    
+    useEffect(() => {
+        if(divRef.current){
+            console.log('Here')
+            ThreeController(divRef.current)
+        }
+    }, [])
 
-export default MyApp
+    return <div ref={divRef} className='custom-background'>
+        <div className='page-container center-align'>
+            <Component {...pageProps} />
+        </div>
+    </div>
+}
