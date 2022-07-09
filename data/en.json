@@ -1,0 +1,14 @@
+{
+   "about" : {
+        "title" : "About me",
+        "description" : [
+            "I'm a web developer oriented to Back-end, with 2 years of experience on development. Experienced with the MERN stack (MongoDb, Express, React JS, Node.JS), and other technologies that you can find in next sections.",
+            "I love to write code and to learn new things. I'm a fan of the open-source community and I'm always looking for new technologies to learn and to improve my skills.",
+            "Explore my portfolio and contact me to know more about me, I'll be happy to answer your questions."
+        ],
+        "info":{
+            "age": "22 years",
+            "career": "Web developer"
+        }
+   }
+}

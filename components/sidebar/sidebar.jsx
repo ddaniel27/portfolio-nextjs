@@ -14,12 +14,13 @@ export default function Sidebar(){
 
     return (
         <div className={style.sidebar}>
+            <Link href="/about/en">
+                <a className={`${active === '/about/en' ? style.active : style.noActive}`}>About</a>
+            </Link>
             <Link href="/ssr">
                 <a className={`${active === '/ssr' ? style.active : style.noActive}`}>SSR</a>
             </Link>
-            <Link href="/about">
-                <a className={`${active === '/about' ? style.active : style.noActive}`}>About</a>
-            </Link>
+            
             <Link href="/env">
                 <a className={`${active === '/env' ? style.active : style.noActive}`}>Env</a>
             </Link>

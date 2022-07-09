@@ -1,0 +1,14 @@
+{
+   "about" : {
+        "title" : "Sobre mí",
+        "description" : [
+            "Soy un desarrollador web orientado hacia Back-end, con dos años de experiencia en el desarrollo. Tengo experiencia con el stack MERN (MongoDB, Express, ReactJS, NodeJS), y otras tecnologías que encontraras en las siguientes secciones.",
+            "Amo escribir código y aprender nuevas cosas. Soy un fan de la comunidad open-source y siempre estoy buscando nuebas tecnologías para aprender y mejorar mis habilidades.",
+            "Explora mi portafolio y contactame para conocer más sobre mí, estaré contento de resolver cualquier duda."
+        ],
+        "info":{
+            "age": "22 years",
+            "career": "Web developer"
+        }
+   }
+}

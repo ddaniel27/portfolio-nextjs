@@ -41,7 +41,6 @@ function init(){
     material = new THREE.ShaderMaterial({
         vertexShader,
         fragmentShader,
-        side: THREE.SingleSide,
         uniforms:{
             time: { value: 0.0 },
         }

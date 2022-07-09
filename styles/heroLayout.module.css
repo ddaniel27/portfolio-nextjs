@@ -16,7 +16,7 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 100%;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
     grid-area: content;
 }

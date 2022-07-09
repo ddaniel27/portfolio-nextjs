@@ -11,7 +11,7 @@ export default function Presentation(){
             <p className={style.finalText}><span>Web Developer</span></p>
         </div>
         <div className={style.imageContainer}>
-            <Link href='/ssr'>
+            <Link href='/about/en'>
                 <Image src="/images/down-arrow-svgrepo-com.svg" alt="Mouse" width={300} height={300} />
             </Link>
         </div>

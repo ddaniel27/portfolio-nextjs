@@ -11,9 +11,9 @@ export default function HeroLayout({ children }){
                 <AnimatePresence exitBeforeEnter={false}>
                     <m.div 
                         className={style.children}
-                        initial = {{ opacity: 0 }}
-                        animate = {{ opacity: 1 }}
-                        exit = {{ opacity: 0 }}
+                        initial = {{ transform: 'translateY(-100%)' }}
+                        animate = {{ transform: 'translateY(0%)' }}
+                        exit = {{ transform: 'translateX(100%)' }}
                         transition = {{ duration: 0.7 }}
                         key = {children.key}
                     >
