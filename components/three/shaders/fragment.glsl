@@ -251,7 +251,7 @@ void main()
     // float strength = sin(cnoise(vUv * 10.0) * 20.0);
 
     // Pattern 50
-    float strength = sin(cnoise(vUv * 2.0) * 20.0 + time);
+    float strength = sin(cnoise(vUv * 10.0) * 30.0 + time);
 
     // Final color
     vec3 blackColor = vec3(0.0);

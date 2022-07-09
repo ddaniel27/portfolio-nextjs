@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import style from '../../styles/presentation.module.css'
 export default function Presentation(){
     return <div className={style.container}>
@@ -10,7 +11,9 @@ export default function Presentation(){
             <p className={style.finalText}><span>Web Developer</span></p>
         </div>
         <div className={style.imageContainer}>
-            <Image src="/images/mouse-minimal.svg" alt="Mouse" width={300} height={300} />
+            <Link href='/ssr'>
+                <Image src="/images/down-arrow-svgrepo-com.svg" alt="Mouse" width={300} height={300} />
+            </Link>
         </div>
         
     </div>

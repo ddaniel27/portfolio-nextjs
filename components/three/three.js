@@ -37,7 +37,7 @@ function init(){
     refElement.appendChild( renderer.domElement )
 
     //Plane
-    const geometry = new THREE.PlaneGeometry(1, 1, 1, 1)
+    const geometry = new THREE.PlaneGeometry(5, 5, 1, 1)
     material = new THREE.ShaderMaterial({
         vertexShader,
         fragmentShader,
