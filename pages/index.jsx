@@ -1,5 +1,4 @@
-import Presentation from '../components/presentation/presentation'
-import style from '../styles/hero.module.css'
+import Presentation from '../components/presentation'
 
 export default function HomePage(){
     return <Presentation />

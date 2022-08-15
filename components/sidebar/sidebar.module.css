@@ -1,0 +1,17 @@
+.modal{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 801px) {
+    .modal{
+        display: none;
+    }
+}

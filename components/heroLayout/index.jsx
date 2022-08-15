@@ -1,6 +1,6 @@
 import { LazyMotion, domAnimation, m, AnimatePresence } from 'framer-motion'
-import Sidebar from '../sidebar/sidebar'
-import style from '../../styles/heroLayout.module.css'
+import Sidebar from '../sidebar'
+import style from './heroLayout.module.css'
 
 export default function HeroLayout({ children }){
     

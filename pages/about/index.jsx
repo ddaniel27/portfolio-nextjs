@@ -1,17 +1,6 @@
-import About from '../../components/about/about'
-import Data from '../../data/en.json'
+import About from '../../components/about'
 
 
-export default function AboutPage({ text }){
-    return <About text={text} />
-}
-
-
-export async function getStaticProps(){
-    const text = Data.about
-    return {
-        props: {
-            text
-        }
-    }
+export default function AboutPage(){
+    return <About />
 }
