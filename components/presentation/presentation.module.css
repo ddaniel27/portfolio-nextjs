@@ -8,6 +8,7 @@
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     position: relative;
+    animation: landing .3s ease-in-out forwards;
 }
 
 .imageContainer{
@@ -57,6 +58,11 @@
 .finalText{
     animation: typing 1s steps(12, end) 5.5s forwards,
     blink-caret .75s step-end infinite;
+}
+
+@keyframes landing {
+  form { background-color: #fff; }
+  to { background-color: black; }
 }
 
 @keyframes typing {

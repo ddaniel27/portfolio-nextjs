@@ -1,0 +1,9 @@
+.styleSpan {
+  position: relative;
+  bottom: 0px;
+  transition: all 0.2s ease-out;
+}
+
+.styleSpan:hover {
+  bottom: 20px;
+}
