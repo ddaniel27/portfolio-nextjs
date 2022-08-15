@@ -1,0 +1,29 @@
+.container{
+  min-width: 163px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+}
+
+.container p{
+  font-size: clamp(1.2rem, 2vw, 1.7rem);
+  font-weight: bold;
+  cursor: default;
+}
+
+.container a{
+  padding: 5px;
+  padding-bottom: 0px;
+}
+
+.container a:hover{
+  background-color: #f5f5f5;
+  border-radius: 12px;
+}
+
+.container a:hover img{
+  filter: invert(0%) sepia(86%) saturate(7500%) hue-rotate(135deg) brightness(88%) contrast(112%);
+}
+

@@ -1,4 +1,5 @@
 import Profile from './profile'
+import SpanAnimated from '../styledSpan'
 import style from './about.module.css'
 
 export default function About(){
@@ -9,7 +10,16 @@ export default function About(){
                 <Profile />
             </div>
             <div className={style.description}>
-                <h2>About me</h2>
+	      <h2>
+		<SpanAnimated>A</SpanAnimated>
+		<SpanAnimated>b</SpanAnimated>
+		<SpanAnimated>o</SpanAnimated>
+		<SpanAnimated>u</SpanAnimated>
+		<SpanAnimated>t</SpanAnimated>
+		<span>&nbsp;</span>
+		<SpanAnimated>m</SpanAnimated>
+		<SpanAnimated>e</SpanAnimated>
+	      </h2>
                 <div className={style.paragraphs}>
 		  <p>
 		    I'm a web developer oriented to Back-end, with 2 years of experience on development. Experienced with the MERN stack (MongoDB, Express, React JS, Node.JS), and other technologies that you can find in next sections. 

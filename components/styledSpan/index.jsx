@@ -2,7 +2,7 @@ import { useState } from 'react'
 import style from './styledSpan.module.css'
 
 function randomColor() {
-  let color = [];
+  const color = [];
   for (let i = 0; i < 3; i++) {
     color.push(Math.floor(Math.random() * 256));
   }
