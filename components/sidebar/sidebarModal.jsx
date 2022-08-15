@@ -22,9 +22,9 @@ export default function SidebarModal({ onClose }){
 	      </a>
             </Link>
             
-            <Link href="/env">
-	      <a className={`${router.pathname === '/env' ? style.active : style.noActive}`}>
-		Env
+            <Link href="/contact">
+	      <a className={`${router.pathname === '/contact' ? style.active : style.noActive}`}>
+		Contact
 	      </a>
             </Link>
 

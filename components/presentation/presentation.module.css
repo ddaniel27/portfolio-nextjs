@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
     position: relative;
     animation: landing .3s ease-in-out forwards;
 }
@@ -41,6 +40,7 @@
     border-right: .15rem solid transparent;
     white-space: nowrap;
     width: 0;
+    font-family: 'Roboto Condensed', sans-serif !important;
 }
 
 .fullerrorText{

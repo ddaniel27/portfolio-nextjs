@@ -12,6 +12,7 @@ export default function Profile(){
                         src="200"
                         alt = "placeholder"
                         layout='fill'
+			style={{ borderRadius: '20px' }}
                     />
                 </div>
                 <div className={style.data}>
