@@ -8,7 +8,15 @@ export default function Front(){
       <h2>
 	<SpanAnimated text={'Frontend Projects'}/>
       </h2>
-      <SimpleCard/>
+      <div className={style.cardContainer}>
+	<SimpleCard src='400' alt='project image'/>
+	<SimpleCard src='400' alt='project image'/>
+	<SimpleCard src='400' alt='project image'/>
+	<SimpleCard src='400' alt='project image'/>
+	<SimpleCard src='400' alt='project image'/>
+	<SimpleCard src='400' alt='project image'/>
+	<SimpleCard src='400' alt='project image'/>
+      </div>
     </div>
   )
 }

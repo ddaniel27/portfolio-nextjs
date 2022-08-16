@@ -1,0 +1,30 @@
+.cardContainer{
+  height: 100%;
+  background-color: #000;
+  display: grid;
+  grid-template-columns: clamp(300px, 20vw, 450px);
+  grid-template-rows: 35% 65%;
+  justify-items: center;
+  align-items: center;
+  border-radius: 20px 20px 10px 10px;
+  border: 2px solid #fff;
+}
+
+.cardImg{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 20px 20px 0px 0px;
+  border-bottom: 2px solid #fff;
+}
+
+
+.cardText{
+  font-size: clamp(0.8rem, 2vw, 1.1rem);
+  width:90%;
+  height: 90%;
+  border: 2px solid #fff;
+  border-radius: 20px 20px 10px 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
