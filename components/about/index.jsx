@@ -11,14 +11,7 @@ export default function About(){
             </div>
             <div className={style.description}>
 	      <h2>
-		<SpanAnimated>A</SpanAnimated>
-		<SpanAnimated>b</SpanAnimated>
-		<SpanAnimated>o</SpanAnimated>
-		<SpanAnimated>u</SpanAnimated>
-		<SpanAnimated>t</SpanAnimated>
-		<span>&nbsp;</span>
-		<SpanAnimated>m</SpanAnimated>
-		<SpanAnimated>e</SpanAnimated>
+		<SpanAnimated text={'About me'}/>
 	      </h2>
                 <div className={style.paragraphs}>
 		  <p>

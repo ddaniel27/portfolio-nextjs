@@ -9,15 +9,15 @@ export default function SidebarPermanent(){
     return(
         <div className={style.sidebar}>
 	  
-            <Link href={`/about`}>
-	      <a className={`${router.pathname === `/about` ? style.active : style.noActive}`}>
+            <Link href="/about">
+	      <a className={`${router.pathname === '/about' ? style.active : style.noActive}`}>
 		About me
 	      </a>
             </Link>
 
-            <Link href="/ssr">
-	      <a className={`${router.pathname === '/ssr' ? style.active : style.noActive}`}>
-		SSR
+            <Link href="/front">
+	      <a className={`${router.pathname === '/front' ? style.active : style.noActive}`}>
+		Frontend
 	      </a>
             </Link>
             

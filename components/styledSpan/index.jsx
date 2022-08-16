@@ -1,31 +1,11 @@
-import { useState } from 'react'
-import style from './styledSpan.module.css'
+import StyledSpan from './styledSpan';
 
-function randomColor() {
-  const color = [];
-  for (let i = 0; i < 3; i++) {
-    color.push(Math.floor(Math.random() * 256));
-  }
-  return 'rgb(' + color.join(', ') + ')';
-} 
-
-export default function SpanAnimated({children}){
-
-  const [hover, setHover] = useState(false)
-
+export default function SpanAnimated({text='test'}){
   return ( 
-    <span
-      className={style.styleSpan}
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
-      style = {{
-	...(hover ? 
-	  { color: randomColor() } :
-	  { color: '#FFF' }
-	)
-      }}
-    >
-    {children}
-    </span>
-  )
+    text
+    .split('')
+    .map( (letter, index) => 
+      <StyledSpan key={index}>{letter}</StyledSpan>
+    )
+ )
 }

@@ -10,15 +10,15 @@ export default function SidebarModal({ onClose }){
         <div className={style.container}>
             <button onClick={() => {onClose(false)}}>X</button>
 
-             <Link href={`/about`}>
+             <Link href="/about">
 	      <a className={`${router.pathname === `/about` ? style.active : style.noActive}`}>
 		About me
 	      </a>
             </Link>
 
-            <Link href="/ssr">
-	      <a className={`${router.pathname === '/ssr' ? style.active : style.noActive}`}>
-		SSR
+            <Link href="/front">
+	      <a className={`${router.pathname === '/front' ? style.active : style.noActive}`}>
+		Frontend
 	      </a>
             </Link>
             

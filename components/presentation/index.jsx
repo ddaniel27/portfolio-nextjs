@@ -5,19 +5,7 @@ import style from './presentation.module.css'
 export default function Presentation(){
     return <div className={style.container}>
       <h1>
-	<SpanAnimated>D</SpanAnimated>
-	<SpanAnimated>a</SpanAnimated>
-	<SpanAnimated>n</SpanAnimated>
-	<SpanAnimated>i</SpanAnimated>
-	<SpanAnimated>e</SpanAnimated>
-	<SpanAnimated>l</SpanAnimated>
-	<span>&nbsp;</span>
-	<SpanAnimated>D</SpanAnimated>
-	<SpanAnimated>o</SpanAnimated>
-	<SpanAnimated>r</SpanAnimated>
-	<SpanAnimated>a</SpanAnimated>
-	<SpanAnimated>d</SpanAnimated>
-	<SpanAnimated>o</SpanAnimated>
+	<SpanAnimated text={'Daniel Dorado'}/>
       </h1>
         <div className={style.textContainer}>
             <p className={style.fullerrorText}><span>Full</span></p>

@@ -6,17 +6,7 @@ export default function Contact(){
   return(
     <div className={style.container}>
       <h2>
-	<SpanAnimated>F</SpanAnimated>
-	<SpanAnimated>i</SpanAnimated>
-	<SpanAnimated>n</SpanAnimated>
-	<SpanAnimated>d</SpanAnimated>
-	<span>&nbsp;</span>
-	<SpanAnimated>M</SpanAnimated>
-	<SpanAnimated>e</SpanAnimated>
-	<span>&nbsp;</span>
-	<SpanAnimated>O</SpanAnimated>
-	<SpanAnimated>u</SpanAnimated>
-	<SpanAnimated>t</SpanAnimated>
+	<SpanAnimated text={'Find Me Out'}/>
       </h2>
       <div className={style.iconsContainer}>
 
