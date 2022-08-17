@@ -1,0 +1,69 @@
+{
+  "data":[
+
+    {
+      "src":"front5.png",
+      "alt": "Front5",
+      "text": [
+	"Pensatta is an Educational Single Page Application (SPA) focused in primary school students to develop their technological skills.", 
+	"Fully responsive and mobile friendly, this SPA MVP was developed entirely in ReactJS with API connections and UI/UX principles."
+      ],
+      "web": "http://www.pensatta.net/"
+    },
+
+    {
+      "src":"front3.png",
+      "alt": "Front3",
+      "text": [
+	"Game-changer platform page for a company. A platform focused in content creators and content creation, all with high-tech tools and robust development.", 
+	"Fully responsive and mobile friendly web page. Langing page for a company that wants to show elegance, expertice, professionalism and great quality in their products."
+      ],
+      "github": "https://github.com/ddaniel27/FrontendMentor-JR-CH1",
+      "web": "https://ddaniel27.github.io/FrontendMentor-JR-CH1/"
+    },
+
+    {
+      "src":"front4.png",
+      "alt": "Front4",
+      "text": [
+	"I want to be productive as much as I love write code, that's why I developed a chrome extension to have a handy pomodoro timer to use when I need focus on my tasks.", 
+	"In the last recent version I added a time tracker and some configuration stuff."
+      ],
+      "github": "https://github.com/ddaniel27/Pomodoro_Chrome_Extension.git"
+    },
+
+    {
+      "src":"front2.png",
+      "alt": "Front2",
+      "text": [
+	"Crowfounding page for a monitor elevator made with Bamboo. The page has some sections depending how much you want to support this project.", 
+	"Fully responsive and mobile friendly web page. Small details care, some modals and pop-ups, designed for give confidence to all investors in a quality product."
+      ],
+      "github": "https://github.com/ddaniel27/FrontendMentor-JR-CH2",
+      "web": "https://ddaniel27.github.io/FrontendMentor-JR-CH2/"
+    },
+
+    {
+      "src":"front6.png",
+      "alt": "Front6",
+      "text": [
+	"Page for a \"comming soon\" application. The page is simple and clean, with all links and information to get all new updates.", 
+	"Fully responsive and mobile friendly web page. Developed just with core web technology to improve speed and weight."
+      ],
+      "github": "https://github.com/ddaniel27/FrontendMentor-NB-CH12",
+      "web": "https://ddaniel27.github.io/FrontendMentor-NB-CH12/"
+    },
+
+    {
+      "src":"front1.png",
+      "alt": "Front1",
+      "text": [
+	"Landing page for a marketing and advertising company. Colorful design with some animations to improve the UX and keep the attention in the content.", 
+	"Fully responsive and mobile friendly web page. Small details care is a must when talking about a professional web page and show expertice and this page is all of that and something more."
+      ],
+      "github": "https://github.com/ddaniel27/FrontendMentor-JR-CH3",
+      "web": "https://ddaniel27.github.io/FrontendMentor-JR-CH3/"
+    }
+
+  ]
+}

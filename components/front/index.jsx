@@ -1,6 +1,7 @@
 import SpanAnimated from '../styledSpan'
 import SimpleCard from '../simpleCard'
 import style from './front.module.css'
+import data from '../../data/projects.json'
 
 export default function Front(){
   return (
@@ -9,13 +10,7 @@ export default function Front(){
 	<SpanAnimated text={'Frontend Projects'}/>
       </h2>
       <div className={style.cardContainer}>
-	<SimpleCard src='400' alt='project image'/>
-	<SimpleCard src='400' alt='project image'/>
-	<SimpleCard src='400' alt='project image'/>
-	<SimpleCard src='400' alt='project image'/>
-	<SimpleCard src='400' alt='project image'/>
-	<SimpleCard src='400' alt='project image'/>
-	<SimpleCard src='400' alt='project image'/>
+	{ data.data.map((item, index) => <SimpleCard key={index} {...item}/>) }
       </div>
     </div>
   )

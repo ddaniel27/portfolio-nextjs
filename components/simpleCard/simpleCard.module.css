@@ -3,7 +3,7 @@
   background-color: #000;
   display: grid;
   grid-template-columns: clamp(300px, 20vw, 450px);
-  grid-template-rows: 35% 65%;
+  grid-template-rows: 35% 55% 10%;
   justify-items: center;
   align-items: center;
   border-radius: 20px 20px 10px 10px;
@@ -27,4 +27,15 @@
   border-radius: 20px 20px 10px 10px;
   padding-top: 10px;
   padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cardLinks{
+  width: 90%;
+  display: flex;
+  gap: 20px;
 }
