@@ -21,7 +21,13 @@ export default function SidebarModal({ onClose }){
 		Frontend
 	      </a>
             </Link>
-            
+
+             <Link href="/back">
+	      <a className={`${/^\/back/.test(router.pathname) ? style.active : style.noActive}`}>
+		Backend
+	      </a>
+            </Link>           
+
             <Link href="/contact">
 	      <a className={`${router.pathname === '/contact' ? style.active : style.noActive}`}>
 		Contact

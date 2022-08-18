@@ -1,0 +1,28 @@
+{
+  "data":[
+    {
+      "title": "API",
+      "root": "back",
+      "category": "api",
+      "description": "An API playground using the PokeAPI. It allows you to search for Pokemon, moves, and more."
+    },
+    {
+      "title": "DataBase",
+      "root": "back",
+      "category": "database",
+      "description": "A DB playground where you can simulate queries to SQL and NoSQL databases."
+    },
+    {
+      "title": "Auth",
+      "root": "back",
+      "category": "auth",
+      "description": "A playground for authentication and authorization."
+    },
+    {
+      "title": "Utils",
+      "root": "back",
+      "category": "utils",
+      "description": "A playground for utility functions such as tests, and more."
+    }
+  ]
+}

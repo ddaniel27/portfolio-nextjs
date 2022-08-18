@@ -1,4 +1,7 @@
 export default function Page({posts}){
+
+
+
     return(
         <ul>
             {posts.map(post => (

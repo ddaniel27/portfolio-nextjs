@@ -42,6 +42,10 @@
     font-size: clamp(1rem, 1.5vw, 1.5rem);
 }
 
+.paragraphs p span{
+  font-weight: bold;
+}
+
 @media screen and (max-width: 650px){
     .description{
         width: 100%;

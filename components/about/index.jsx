@@ -15,10 +15,10 @@ export default function About(){
 	      </h2>
                 <div className={style.paragraphs}>
 		  <p>
-		    I'm a web developer oriented to Back-end, with 2 years of experience on development. Experienced with the MERN stack (MongoDB, Express, React JS, Node.JS), and other technologies that you can find in next sections. 
+		    I'm a web developer oriented to Back-end, with 2 years of experience on development. Experienced with <span>HTML5, CSS3, Javascript, ReactJS, NodeJS, MySQL, MongoDB</span> and other technologies that you can find in next sections. 
 		  </p>
 		  <p>
-		    I love to write code and to learn new things. I'm a fan of the open-source community and I'm always looking for new technologies to learn and to improve my skills.
+		    I love to write code and to learn new things. I'm a fan of the open-source community and I'm always looking for <span>new technologies</span> to learn and to improve my skills.
 		  </p>
 		  <p>
 		    Explore my portfolio and contact me to know more about me, I'll be happy to answer your questions.
