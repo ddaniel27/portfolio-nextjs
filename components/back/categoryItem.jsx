@@ -10,7 +10,7 @@ export default function CategoryItem({
   return(
 	<Link href={`/${root}/${category}`}>
 	<div className={style.categoryItem}>
-	    <h3>{title}</h3>
+	  <h3><span>{title}</span></h3>
 	  <p>{description}</p>
 	</div>
 	</Link>

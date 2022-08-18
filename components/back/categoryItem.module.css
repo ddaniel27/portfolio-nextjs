@@ -13,21 +13,23 @@
 
 .categoryItem h3{
     font-size: clamp(1.2rem, 2vw, 1.7rem);
-    position: relative;
-    width:auto;
 }
 
-.categoryItem h3::before{
+.categoryItem h3 span{
+    position: relative;
+}
+
+.categoryItem h3 span::before{
   content: "";
   width: 0%;
   height: 2px;
   background-color: white;
   position: absolute;
   bottom: -10%;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.categoryItem:hover h3::before{
+.categoryItem:hover h3 span::before{
   width: 95%;
 }
 

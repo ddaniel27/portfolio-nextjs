@@ -1,0 +1,43 @@
+.container{
+  width: 80%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 80%;
+  justify-items: center;
+  align-items: center;
+}
+
+.container h2{
+  font-size: clamp(3rem, 4vw, 5rem);
+  font-weight: bold;
+  text-align: center;
+}
+
+.controlls{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 70% 30%;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.controllsField{
+  width:100%;
+  height:100%;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 5% 0 0 5%;
+}
+
+.result{
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  padding-right: 0px;
+}
