@@ -1,6 +1,7 @@
 import { LazyMotion, domAnimation, m, AnimatePresence } from 'framer-motion'
 import { useRouter } from 'next/router'
 import HeroLayout from '../components/heroLayout'
+import HeadSeo from '../components/head'
 import '../styles/globals.css'
 
 export default function CustomApp({ Component, pageProps }) {
@@ -21,9 +22,11 @@ export default function CustomApp({ Component, pageProps }) {
             {
                 router.pathname === '/' ?  
                 <div className='page-container center-align'>
+		  <HeadSeo titleText={'Daniel Dorado'} />
                   <Component {...pageProps} />
                 </div>:
                 <HeroLayout>
+		  <HeadSeo titleText={router.pathname.replace('/','')} />
 		  <Component key={router.pathname.replace('/','')} {...pageProps} />
                 </HeroLayout>
             }
