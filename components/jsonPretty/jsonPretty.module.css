@@ -3,5 +3,21 @@
   height:100%;
   overflow: auto;
   display: grid;
-  align-items: center;
+  align-items: start;
+  padding: 5% 0 0 5%;
+  position: relative;
+}
+
+.inputIcon{
+  position: absolute;
+  top:1%;
+  right: 3%;
+  cursor: pointer;
+}
+
+.showFeedback{
+  position: absolute;
+  top: 100%;
+  right: 0;
+  font-size: .6rem;
 }

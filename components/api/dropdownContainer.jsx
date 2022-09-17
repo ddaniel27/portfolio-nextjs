@@ -1,17 +1,14 @@
 import { useState } from 'react'
-import Image from 'next/image'
-import apiEndpoints from '../../data/apiEndpoints.json'
 import Dropdown from '../dropdown'
+import InputQuery from '../inputQuery'
+import apiEndpoints from '../../data/apiEndpoints.json'
 import style from './dropdownContainer.module.css'
 
-export default function DropdownContainer({}){
+//
+
+export default function DropdownContainer({setResult}){
 
   const [dropdownValue, setDropdownValue] = useState('')
-  const [resource, setResource] = useState('')
-
-  const handleInputChange = ({target}) => {
-    setResource(target.value)
-  }
 
   return(
     <div className={style.container}>
@@ -26,25 +23,7 @@ export default function DropdownContainer({}){
 	  ))
 	}
       </div>
-      <div className={style.apiInputContainer}>
-	<p>https://pokeapi.co/api/v2/{dropdownValue && `${dropdownValue}/`}{resource && `${resource}/`}</p>
-	<div className={style.inputContainer}>
-	  <input 
-	    type="text"
-	    placeholder="Enter id or name..."
-	    maxLength="20"
-	    value={resource}
-	    onChange={handleInputChange}
-	    disabled={!dropdownValue}
-	  />
-	  <span className={style.inputIcon} style={resource ? {display:'block'} : {display:'none'}}>
-	    <Image
-	      src="/images/social-media/search.svg"
-	      alt="github" width={30} height={30}
-	    />
-	  </span>
-	</div>
-      </div>
+    <InputQuery base={'https://pokeapi.co/api/v2'} field={dropdownValue} setResult={setResult} />
     </div>
   )
 
